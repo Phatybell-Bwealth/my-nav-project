@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+}
+#navbar{
+    background-color: blue;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+}
+#navbar ul li{
+    justify-content: space-between;
+    margin: center;
+    display: flex;
+    border: 0px;
+}
+#navbar li{
+    float: left;
+    padding: 0px;
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a{
+    color: gold;
+    padding: 14px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    border:0px;
+    justify-content: center;
+
+}

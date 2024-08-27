@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    background-color:  green;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    font-size:large;
+    font-weight: bold;
+}
+
+#navitems{
+    display: flex;
+}
+
+ul li{
+    justify-content: space-between;
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: center;
+    color: white;
+    padding: 16px 14px;
+    text-decoration: none;
+    list-style: none;
+    font-size: smaller;
+}
+.ul li a:hover{
+    color: black;
+    cursor: cell;
+    padding: 14px;
+}
+.banner{
+    display: flex;
+    /* background-image: url('gift-shop.png'); */
+    background: linear-gradient(rgba(53, 49, 49, 0.5), rgba(37, 35, 35, 0.5)),
+    url('gift-shop.png.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-text{
+    font-size: 80px;
+    color: white;
+    margin: 0px;
+}
+.banner p {
+    margin: 0px;
+}

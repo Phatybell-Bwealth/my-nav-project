@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    background-color: aqua;
+    padding-right: 0px;
+    display: flex;
+    float: none;
+
+}
+ul{
+    list-style: none;
+
+}
+
+ul li{
+    color: navy;
+}
+li a{
+
+     font-size: small;
+     font-weight: bold;
+}
+
+li a{
+    font-size: small;
+    font-weight: bold;
+}
+li a{
+    color: rgb(6, 6, 109);
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul li img{
+    padding: 0px;
+    font-display: flex;
+    list-style-image: none;
+   justify-content: space-between;
+   im
+}
